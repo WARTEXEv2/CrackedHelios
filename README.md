@@ -1,11 +1,11 @@
-<p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
+This is a fork of the official Helios Launcher by @dscalzi, this launcher allow crak user<br>
+To do that I just needed to give the jar an invalid token and the uuid.
+
+<p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="Logo"></p>
 
 <h1 align="center">Cracked Helios Launcher</h1>
 
 <em><h5 align="center">(formerly Electron Launcher)</h5></em>
-<em><h5 style="color: green;" align="center"><a href="https://github.com/SuperKooka/" style="text-decoration: none; color: green;"><img src="https://cdn.discordapp.com/avatars/283933553975230464/731adf0072b0e543c00910454246b5af.png?size=128" width="50px" height="50px" style="border-radius: 25px;"><br>Superkooka</a></h5></em>
-
-[<p align="center"><img src="https://img.shields.io/travis/dscalzi/HeliosLauncher.svg?style=for-the-badge" alt="travis">](https://travis-ci.org/dscalzi/HeliosLauncher) [<img src="https://img.shields.io/github/downloads/dscalzi/HeliosLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/dscalzi/HeliosLauncher/releases) <img src="https://forthebadge.com/images/badges/winter-is-coming.svg"  height="28px" alt="stark"></p>
 
 <p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
 
@@ -17,6 +17,7 @@
 * 🔒 Full account management.
   * Add multiple accounts and easily switch between them.
   * Credentials are never stored and transmitted directly to Mojang.
+  * Allow crack user.
 * 📂 Efficient asset management.
   * Receive client updates as soon as we release them.
   * Files are validated before launch. Corrupt or incorrect files will be redownloaded.
@@ -36,27 +37,6 @@ This is not an exhaustive list. Download and install the launcher to gauge all i
 #### Need Help? [Check the wiki.][wiki]
 
 #### Like the project? Leave a ⭐ star on the repository!
-
-## Downloads
-
-You can download from [GitHub Releases](https://github.com/dscalzi/HeliosLauncher/releases)
-
-#### Latest Release
-
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases/latest)
-
-#### Latest Pre-Release
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher/all.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases)
-
-**Supported Platforms**
-
-If you download from the [Releases](https://github.com/dscalzi/HeliosLauncher/releases) tab, select the installer for your system.
-
-| Platform | File |
-| -------- | ---- |
-| Windows x64 | `helioslauncher-setup-VERSION.exe` |
-| macOS | `helioslauncher-VERSION.dmg` |
-| Linux x64 | `helioslauncher-VERSION-x86_64.AppImage` |
 
 ## Console
 
@@ -88,7 +68,7 @@ If you want to export the console output, simply right click anywhere on the con
 **Clone and Install Dependencies**
 
 ```console
-> git clone https://github.com/dscalzi/HeliosLauncher.git
+> git clone https://github.com/superkooka/helios.git
 > cd HeliosLauncher
 > npm install
 ```
